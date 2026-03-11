@@ -8,7 +8,7 @@
     "build:prod": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration production --base-href=/fz1/ && npxangular-cli-ghpages --dir=dist/FZ1/browser"
+    "deploy": "ng build --configuration production --base-href=/fz1/ && npx angular-cli-ghpages --dir=dist/fz1/browser"
     
   },
   "prettier": {
